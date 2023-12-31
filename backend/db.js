@@ -4,7 +4,7 @@ const mongoURL = "mongodb+srv://gofood:Khan123@cluster0.9cddff0.mongodb.net/gofo
 const mongoDB = () => {
   mongoose.connect(mongoURL)
   .then(() => {
-    console.log("Connected Successfully");
+    console.log("Connected Successfully"); 
     const fetched_data = mongoose.connection.db.collection("food_items")
     fetched_data.find({}).toArray()
     .then((data) => {
