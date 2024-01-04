@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const mongoURL = "mongodb+srv://food4u:vivek1234@cluster0.g2agcgn.mongodb.net/food4u?retryWrites=true&w=majority";
-
+ 
 const mongoDB = () => {
   mongoose.connect(mongoURL)
   .then(() => {
