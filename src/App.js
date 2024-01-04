@@ -2,7 +2,7 @@ import './App.css';
 import Home from './screens/Home';
 import {
   BrowserRouter as Router,
-  Routes,
+  Routes,   
   Route
 } from 'react-router-dom';
 import Login from './screens/Login';
