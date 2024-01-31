@@ -17,7 +17,7 @@ function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(JSON.stringify({name:credentials.name, email:credentials.email, password:credentials.password,location:credentials.geolocation}))
-    const response = await fetch("http://localhost:5000/api/createuser", {
+    const response = await fetch("https://food4-u-mern-project-ot2d.vercel.app/api/createuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
