@@ -9,8 +9,8 @@ function Footer() {
           <Link to="/" className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
             
           </Link>
-          <span className="text-muted">© 2023 Food4U, Inc</span>
-        </div>
+          <span className="text-muted">© 2023 Food4U, Inc.  ❤️ From <em>Shameem Ahmad </em>  <br></br>Thankyou for visiting.</span> 
+          </div>
 
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
 
